@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f1da4eea1200fe8d4bb65207c6e47381365ab8c8e7fade7db4488c62b20e926f
+-- hash: eb5e091b9143a9e4d46a284503e5aacd0bca82ac360843efe92f19c5d4170370
 
 name:           warp-keepalive
 version:        0.1.0.0
@@ -26,4 +26,8 @@ executable warp-keepalive
       src
   build-depends:
       base >=4.7 && <5
+    , http-types
+    , wai
+    , warp
+    , warp-tls
   default-language: Haskell2010
